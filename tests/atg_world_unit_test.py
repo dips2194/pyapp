@@ -1,5 +1,5 @@
 import requests
 def test_website_loads_properly():
-    response = requests.get("https://atg.world")
+    response = requests.get("https://atg.wor")
     assert response.status_code == 200
     print("Website loaded successfully!")
